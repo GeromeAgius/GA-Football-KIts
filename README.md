@@ -1,1 +1,1 @@
-# GA-Football-Kits
+# GA-Football-KIts
