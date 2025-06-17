@@ -1,0 +1,190 @@
+
+body{
+    text-align: center;
+     font-family: 'Poppins', sans-serif;
+     background-color: #bdc3c7;
+}
+ .nav-button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 15px;
+      background-color: #2980b9 ;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px; /*CSS3 properties*/
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /*CSS3 properties*/
+      transition: all 0.3s ease;
+
+    }
+
+    .nav-button:hover {
+      background-color: #ecf0f1;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /*CSS3 properties*/
+    }
+    h1{
+
+             text-align: center;
+             
+    }
+   h2 {
+      color: #2c3e50;
+      font-size: 36px;
+           text-align: center;
+            font-family: 'Poppins', sans-serif;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color:  #2c3e50;
+           text-align: center;
+    }
+
+    .highlight {
+      color: #2c3e50;
+      font-weight: bold;
+    }
+     .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      border: 1px solid #ecf0f1;
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px; /*CSS3 properties*/
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 20px; /*CSS3 properties*/
+      box-shadow:#cc6600
+    }
+
+    .product-card img {
+       display: block;
+  margin: 0 auto;
+      margin-bottom: 10px;
+      max-width: 80%;
+    }
+
+    .product-title {
+      font-size: 16px;
+      margin: 10px 0;
+       font-weight: bold;
+
+    }
+
+    .product-price {
+      font-weight: bold;
+      color: #333;
+      
+    }
+
+    .buy-button {
+      padding: 10px;
+      background-color: #e67300;
+      color: white;
+      border: none;
+      border-radius: 5px; /*CSS3 properties*/
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .buy-button:hover {
+      background-color: #cc6600;
+    }
+
+   .product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+}
+
+@media /*CSS3 properties*/ (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 5px; /*CSS3 properties*/
+      cursor: pointer;
+      text-decoration: none;
+     
+    }
+
+    .buy-button:hover {
+      background-color: #cc6600;
+    }
+   .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto; 
+}
+    .gallery img {
+      width: 100%;
+      border-radius: 8px; /*CSS3 properties*/
+      border: 2px solid #2980b9;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+      border-color: #f1c40f;
+    }
+    .contact-form {
+      background: #fff;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 8px; /*CSS3 properties*/
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /*CSS3 properties*/
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background: #0056b3;
+    }
+
